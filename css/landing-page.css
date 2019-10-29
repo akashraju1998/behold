@@ -134,3 +134,42 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+
+#mailchimp {
+	color: #5555ff;
+  padding: 15px;    
+
+  
+}
+	#mailchimp input {
+		 border:  medium none;
+    color: gray;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 75%;
+		border-radius: 1000px;
+		-moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+
+
+	}
+		/* #mailchimp input.email { background: #fff } */
+		/* #mailchimp input.name { background: #fff} */
+		#mailchimp input[type="submit"] {
+      border: none;
+			background: #5555ff;
+			color: #fff;
+			/* cursor: pointer; */
+			font-size: 15px;
+			width: 100%;
+			padding: 12.5px 30px;
+
+		}
+      #mailchimp input[type="submit"]:hover { color:white }
+      
+      .clear {
+        display: inline-block;
+    }
